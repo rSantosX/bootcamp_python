@@ -16,4 +16,3 @@ print(calc_kpi)
 #print("Ola "+ nome + " o seu valor bônus foi de: " + str(calc_kpi)) #funciona
 
 print(f"Ola {nome} o seu valor bônus foi de: {calc_kpi}") # O print(f) é usado quando queremos printar o valor da vaiavel junto ao texto 
-
