@@ -1,5 +1,6 @@
 #Exercícios
-#Inteiros (int)
+
+## Inteiros (int)
 
 #1 Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
@@ -36,3 +37,26 @@
 #calc_potencia = pow(valor,2)
 #print(f"O valor de {valor} eleveado ao quadrado é: {calc_potencia}")
 
+## Números de Ponto Flutuante (float)
+
+#6 Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+#valor1 = float(input("Digite o valor 1: "))
+#valor2 = float(input("Digite o valor 2: "))
+#calc_valor = valor1 + valor2
+#print(f"A soma dos valores é: {calc_valor}")
+#print("A soma dos valores é:", calc_valor)
+
+
+#7 Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+valor1 = float(input("Digite o valor 1: "))
+valor2 = float(input("Digite o valor 2: "))
+
+calc_valor = (valor1 + valor2) / 2  #Precedência de operadores, sempre faça as devidas separações
+
+print("A media dos valores é:", calc_valor)
+
+#8 Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+#9 Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+#10 Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
