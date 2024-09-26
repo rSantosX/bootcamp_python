@@ -4,7 +4,7 @@ def leitor_cvs(nome_do_arquivo_csv: str) -> list[dict]:
     
     lista = [] #crio uma variavel lista
 
-    with open(nome_do_arquivo_csv, mode="r", encoding='utf-8') as arquivo: #tranformo a funcao em uma variavel
+    with open(nome_do_arquivo_csv, mode="r", encoding='utf-8') as arquivo: #transformo a funcao em uma variavel
         leitor = csv.DictReader(arquivo)
         for linha in leitor: #faço a leitura de linha a linha
             lista.append(linha)
